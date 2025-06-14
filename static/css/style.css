@@ -1,0 +1,58 @@
+/* Genel Stil */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 100px; /* Player için boşluk */
+}
+
+/* Müzik Player */
+#music-player {
+    background-color: #282828 !important;
+    border-top: 1px solid #000;
+}
+
+#current-cover {
+    object-fit: cover;
+}
+
+.player-controls button {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.progress {
+    height: 5px;
+    background-color: #535353;
+}
+
+.progress-bar {
+    background-color: #1DB954;
+}
+
+#volume-slider {
+    width: 100px;
+}
+
+/* Anasayfa */
+h1, p.lead {
+    color: #1DB954;
+}
+
+.btn-primary {
+    background-color: #1DB954;
+    border-color: #1DB954;
+}
+
+.btn-primary:hover {
+    background-color: #1ED760;
+    border-color: #1ED760;
+} 

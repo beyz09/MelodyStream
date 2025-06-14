@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>MelodyStream'e Hoş Geldiniz!</h1>
+            <p class="lead">Müzik dünyasına adım atın.</p>
+            <a href="#" class="btn btn-primary btn-lg mb-4">Şimdi Keşfet</a>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <h2 class="mb-3">Tüm Şarkılar</h2>
+            <div id="song-list" class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+                <!-- Şarkılar buraya dinamik olarak yüklenecek -->
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
